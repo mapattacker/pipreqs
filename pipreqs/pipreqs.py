@@ -31,8 +31,8 @@ Options:
                           imports.
     --clean <file>        Clean up requirements.txt by removing modules
                           that are not imported in project.
-    --dynamic <scheme>    Enables dynamic version updates by minor,
-                          micro or all schemes.
+    --dynamic <scheme>    Enables dynamic version updates by 'minor',
+                          'micro' or 'all' schemes.
 """
 from __future__ import print_function, absolute_import
 from contextlib import contextmanager
